@@ -23,3 +23,4 @@ by JWT, but with a few small specific differences.
 
 0.1.0 Initial release
 0.1.2 Fixed the token decoding
+0.1.3 The decode should return false when token is undefined

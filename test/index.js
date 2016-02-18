@@ -3,6 +3,9 @@ var should = require('chai').should(),
     decode = lwt.decode;
 
 describe('#decode', function() {
+  it('should return false for undefined', function () {
+    decode().should.equal(false);
+  });
   it('should return false for bad token (1)', function () {
     decode('this_is_a_bad_token').should.equal(false);
   });

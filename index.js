@@ -9,6 +9,11 @@ module.exports = {
    * @return [String]
    */
   decode: function (lwtToken) {
+    // If the token is undefined
+    if (!lwtToken) {
+      return false;
+    }
+    
     var parts = lwtToken.split(".");
 
     // If the length is wrong
