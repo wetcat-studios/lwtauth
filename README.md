@@ -22,3 +22,4 @@ by JWT, but with a few small specific differences.
 ## Release history
 
 0.1.0 Initial release
+0.1.2 Fixed the token decoding
