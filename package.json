@@ -1,0 +1,27 @@
+{
+  "name": "lwtauth",
+  "version": "0.1.0",
+  "description": "A simple authentication package for the litterbox system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wetcat-studios/lwtauth.git"
+  },
+  "keywords": [
+    "litterbox",
+    "auth"
+  ],
+  "author": "Andreas Göransson <andreasgoransson0@gmail.com> (https://github.com/agoransson)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wetcat-studios/lwtauth/issues"
+  },
+  "homepage": "https://github.com/wetcat-studios/lwtauth#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
