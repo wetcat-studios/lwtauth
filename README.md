@@ -1,4 +1,4 @@
-Litterbox Wet Token
+Litterbox Web Token
 ===================
 
 A simple token handling library for the Litterbox web system, it's inspired heavily
