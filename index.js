@@ -62,7 +62,7 @@ module.exports = {
     var header = new Buffer(JSON.stringify(headerObj)).toString('base64');
     
     // Build the data
-    var dataObj = {uuid: identifier, name, role};
+    var dataObj = {uuid: identifier, name: name, role: role};
     var data = new Buffer(JSON.stringify(dataObj)).toString('base64');
     
     // Build the footer
