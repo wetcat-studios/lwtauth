@@ -18,17 +18,17 @@
  * limitations under the License.
  */
 
-const UNDEFINED_TOKEN = 'undefined token';
-const UNDEFINED_IDENTIFIER = 'undefined identifier';
-const UNDEFINED_NAME = 'undefined name';
-const UNDEFINED_ROLE = 'undefined role';
-const UNDEFINED_SECRET = 'undefined secret';
-const SHORT_TOKEN = 'token is too short';
-const LONG_TOKEN = 'token has too long';
-const BAD_HEADER = 'token header is badly formatted';
-const BAD_DATA = 'token data is badly formatted';
-const BAD_SECRET = 'token secret is badly formatted';
-const BAD_IDENTIFIER = 'the identifier (uuid) is badly formatted';
+var UNDEFINED_TOKEN = 'undefined token';
+var UNDEFINED_IDENTIFIER = 'undefined identifier';
+var UNDEFINED_NAME = 'undefined name';
+var UNDEFINED_ROLE = 'undefined role';
+var UNDEFINED_SECRET = 'undefined secret';
+var SHORT_TOKEN = 'token is too short';
+var LONG_TOKEN = 'token has too long';
+var BAD_HEADER = 'token header is badly formatted';
+var BAD_DATA = 'token data is badly formatted';
+var BAD_SECRET = 'token secret is badly formatted';
+var BAD_IDENTIFIER = 'the identifier (uuid) is badly formatted';
 
 module.exports = {
     undefinedToken: {err: UNDEFINED_TOKEN},
